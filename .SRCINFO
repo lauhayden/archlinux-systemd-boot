@@ -1,0 +1,14 @@
+pkgbase = archlinux-systemd-boot
+	pkgdesc = Arch Install Media as systemd-boot loader entry
+	pkgver = 2023.01.01
+	pkgrel = 1
+	arch = any
+	license = GPL
+	depends = systemd
+	noextract = archlinux-x86_64.iso
+	source = https://geo.mirror.pkgbuild.com/iso/2023.01.01/archlinux-x86_64.iso
+	source = arch-installmedia.conf
+	sha256sums = 61dbae312cf677be38a93f424c91abadd8a8ed1f3a602b697aac4c57a7872645
+	sha256sums = SKIP
+
+pkgname = archlinux-systemd-boot
