@@ -1,7 +1,7 @@
 pkgbase = archlinux-systemd-boot
 	pkgdesc = Arch Install Media as systemd-boot loader entry
 	pkgver = 2023.01.01
-	pkgrel = 2
+	pkgrel = 3
 	url = https://archlinux.org/download/
 	arch = x86_64
 	license = various

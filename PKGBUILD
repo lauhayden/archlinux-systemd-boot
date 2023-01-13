@@ -2,7 +2,7 @@
 # Development at https://github.com/lauhayden/archlinux-systemd-boot
 pkgname=archlinux-systemd-boot
 pkgver="2023.01.01"
-pkgrel=2
+pkgrel=3
 pkgdesc="Arch Install Media as systemd-boot loader entry"
 url="https://archlinux.org/download/"
 arch=('x86_64')
@@ -40,5 +40,6 @@ package() {
   install -d $pkgdir/boot/loader/entries
   cp arch-installmedia.conf $pkgdir/boot/loader/entries
   cp $srcdir/shellx64.efi $pkgdir/boot
-  cp -r $srcdir/arch $pkgdir/boot
+  install -d $pkgdir/boot/arch-installmedia
+  cp -r $srcdir/arch/* $pkgdir/boot/arch-installmedia
 }
