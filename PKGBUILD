@@ -1,7 +1,7 @@
 # Maintainer: Hayden Lau <arch@hlau.ca>
 # Development at https://github.com/lauhayden/archlinux-systemd-boot
 pkgname=archlinux-systemd-boot
-pkgver='2023.02.01'
+pkgver='2023.05.03'
 pkgrel=1
 pkgdesc='Arch Install Media as systemd-boot loader entry'
 url='https://archlinux.org/download/'
@@ -17,7 +17,7 @@ source=(
 noextract=("archlinux-${pkgver}-x86_64.iso")
 validpgpkeys=('3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C')
 b2sums=(
-  '39b9cdf671f9958db73188bd06c25397b7354dedc171152d8fe639ec315d48defe9ffd64d870beab479c13d0d0d28c4e8039542c8ec2f4d0e5fcc342b73eb000'
+  '6d8f1ae992900cb10cdd3e1abd6137d59ce08e3cc532f9fd67dd629058b4404488a854ce5baa56c7c516c386f0296d7768e964f660bdd53c66d5f1ecf3268938'
   'SKIP'
   'SKIP'
 )
